@@ -1,19 +1,21 @@
-
 public enum Economy {
 //percentges of whole population, with no regard to age
-	double age [] = new double[] {15,30,45,65,72,80};
-	double proportions [] = new double [] {0.15,0.25,0.33,0.17,0.07,0.4};
-	int database_size = (int) age.length;
-	
-	double EMPLOYMENT_RATE= 0.2;
-	double AT_RISK = 0.04;
-double [][] AGE_PROPORTIONS = new double [database_size][2];
-	for(int ages = 0; ages<database_size; ages++) 
-			{AGE_PROPORTIONS[ages][0] = age[ages];
-			 AGE_PROPORTIONS[ages][1] = proportions[ages];}
+//	int age [] = new int[] {15,30,45,65,72,80};
+//	int proportions [] = new int [] {15,25,33,16,7,4};
 
-	
-	
+//	double ON_GOVERNMENT_PAYMENT = 0.2;
+	int PAYMENT_AMOUNT = 15; //in hundreds of eu
+//	int BUDGET = 24000000; //in hundreds 
+	int COVID_TEST_PRICE = 1;
+//	double CURR_EMPLOYMENT_RATE= 0.2;
+//	double AT_RISK = 0.04;
+     int dead = 0;
+	 int recovered=0;
+	 int infected = 0;
+//	 int healthy = 1000000;
+//	 int population = 1000000;
+
+	 
 	
 	
 }
