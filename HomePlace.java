@@ -10,7 +10,6 @@ public class HomePlace extends Place {
 		family = new Person [howMany];
 		isIn = new boolean [howMany];
 		guests= new ArrayList<Person>();
-		
 	}
 
 }

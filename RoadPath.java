@@ -1,4 +1,10 @@
 
-public class RoadPath {
+public class RoadPath extends Place {
 
+	public RoadPath () {
+		
+		
+		
+	}
+	
 }

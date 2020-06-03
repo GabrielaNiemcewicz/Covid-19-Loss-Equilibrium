@@ -1,4 +1,10 @@
 
-public class CompanyPlace {
+public class CompanyPlace extends Place{
 
+	CompanyPlace(){
+		super();
+		
+	}
+	
+	
 }

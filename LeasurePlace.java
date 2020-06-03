@@ -1,4 +1,10 @@
+//eg. a park
+public class LeasurePlace extends Place {
 
-public class LeasurePlace {
-
+	LeasurePlace(){
+		super();
+		
+	}
+	
+	
 }

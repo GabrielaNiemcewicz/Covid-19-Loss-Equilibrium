@@ -9,11 +9,7 @@ public enum Economy {
 	int COVID_TEST_PRICE = 1;
 //	double CURR_EMPLOYMENT_RATE= 0.2;
 //	double AT_RISK = 0.04;
-     int dead = 0;
-	 int recovered=0;
-	 int infected = 0;
-//	 int healthy = 1000000;
-//	 int population = 1000000;
+
 
 	 
 	
